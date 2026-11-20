@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Local database and runtime files
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# macOS / editors
+.DS_Store
+.vscode/
